@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParallalX scrolling website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        section::before {
+            content: "";
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient(to top, #5c3675, transparent);
+            z-index: 11;
+        }
+    </style>
+</head>
+
+<body class="min-h-[100vh] bg-gradient-to-b from-[#2b1055] to-[#7597de] overflow-x-hidden">
+    <header class="absolute top-0 left-0 w-[100%] flex justify-between py-4 px-8 items-center z-50">
+        <p class="text-3xl font-bold text-fuchsia-200">Moonlight</p>
+        <nav>
+            <ul class="flex space-x-14 items-center">
+                <li
+                    class="text-xl font-semibold  px-3 rounded-full py-1 hover:bg-gray-200 cursor-pointer transition-all duration-300 hover:text-[#2b1055] bg-gray-200 text-[#2b1055]">
+                    Home</li>
+                <li
+                    class="text-xl font-semibold text-white px-3 rounded-full py-1 hover:bg-gray-200 cursor-pointer transition-all duration-300 hover:text-[#2b1055]">
+                    About</li>
+                <li
+                    class="text-xl font-semibold text-white px-3 rounded-full py-1 hover:bg-gray-200 cursor-pointer transition-all duration-300 hover:text-[#2b1055]">
+                    Services</li>
+                <li
+                    class="text-xl font-semibold text-white px-3 rounded-full py-1 hover:bg-gray-200 cursor-pointer transition-all duration-300 hover:text-[#2b1055]">
+                    Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-image-container h-[100vh] flex justify-center items-center">
+        <!-- div for heading of website -->
+        <div class="text-center -translate-y-12 translate-x-20">
+            <!-- <p class="text-xl text-white">ParallaX Scrolling Effect</p> -->
+            <p id="moonlight" class=" text-7xl font-semibold text-white relative">MOONLIGHT</p>
+
+        </div>
+        <a id="btn" class="px-3 py-1 text-xl bg-white text-[#2b1055] rounded-lg font-semibold -translate-x-56 translate-y-12 cursor-pointer"
+            href="#">Explore</a>
+        <img class="absolute top-0 left-0 h-[100%] w-[100%] object-cover" src="parallX-image/stars.png" id="stars">
+        <img class="absolute top-0 left-0 h-[100%] w-[100%] object-cover" src="parallX-image/mountains_behind.png" id="behind">
+        <img class="absolute top-0 left-0 h-[100%] w-[100%] object-cover" src="parallX-image/mountains_front.png" id="front">
+        <img class="absolute top-0 left-0 h-[100%] w-[100%] object-cover mix-blend-screen" src="parallX-image/moon.png" id="moon">
+    </section>
+    <div class="bg-[#5c3675] p-6">
+        <h2 class="text-center text-3xl font-semibold text-fuchsia-300">ParallaX Scrolling Effect In Website</h2>
+        <p class="text-white my-6 bg-transparent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro facilis
+            aliquid optio iure consectetur maiores fuga est, nisi harum animi totam nemo sed, quo quidem assumenda et
+            praesentium? Odio harum officiis corrupti illo quos at mollitia perferendis iusto architecto ratione. Iure
+            ipsam praesentium, eos laborum iste voluptates non blanditiis, aut, error <br> architecto veritatis hic ad
+            sint eligendi et? Quo, quas quasi. Obcaecati culpa libero nesciunt quia! Officiis reprehenderit est rerum
+            quisquam iure nesciunt incidunt molestias, tempore ex mollitia quod nobis adipisci architecto tempora dolore
+            nemo aperiam quaerat quibusdam distinctio quis eaque voluptatibus, <br> <br> harum accusamus! Qui doloremque
+            consectetur iste possimus similique deserunt sunt voluptatum? Vitae reiciendis facere a dolor amet, nesciunt
+            ullam pariatur qui itaque ipsum doloribus beatae commodi assumenda culpa sint necessitatibus neque eveniet
+            minima illum. Consequuntur earum ex numquam et <br> doloribus maxime perferendis repellat nulla illum
+            excepturi at eos saepe veritatis aspernatur aut fugiat sunt quaerat maiores esse, quidem ducimus vitae
+            reprehenderit placeat quo. Nemo perferendis, obcaecati fugiat provident eum doloribus! Odit accusamus
+            perspiciatis dolores debitis quod sed magnam <br> <br> laudantium delectus explicabo quam veniam facere ex
+            obcaecati excepturi quis dicta ratione sit repellendus aut, similique doloribus quo quia sunt saepe. Quidem
+            autem obcaecati placeat ipsam quaerat blanditiis adipisci quas consequatur deserunt sapiente consectetur
+            laborum, perferendis, ducimus <br> porro ab quos harum, sunt nemo nihil? Aliquid, excepturi? Asperiores,
+            repudiandae? A totam reprehenderit, fugit ipsum quisquam libero minus veritatis eos accusamus quidem
+            inventore error corrupti perspiciatis delectus laboriosam ipsa. Harum voluptates deserunt commodi inventore
+            cum, iusto veniam ullam, <br> <br> beatae mollitia sequi, expedita accusamus? Dolores esse, quae, impedit
+            exercitationem est voluptate tempora quo quam, accusantium fugiat quasi at ullam soluta. Recusandae placeat
+            obcaecati praesentium exercitationem cum officia! Quae dolorem eum fugiat amet, sunt maiores voluptatem
+            aperiam vero nam eos molestias in hic at! Numquam nesciunt autem possimus aspernatur commodi error ducimus
+            fugiat sit? Lorem ipsum dolor sit amet consectetur, adipisicing elit <br>. Amet illum voluptatem iste
+            laborum. Quis error alias laboriosam dolor, ad aperiam ipsam dolores corporis recusandae nobis quaerat! Sint
+            odio nihil itaque laborum pariatur, qui culpa mollitia, dolorum quibusdam velit sunt a quo nesciunt sed nam
+            harum? Sequi necessitatibus expedita a ad, ex eum <br> <br> blanditiis dolores ipsum recusandae molestiae
+            quisquam quod at, numquam minima. Cupiditate iusto maxime ut alias fuga sequi dolore libero rem odit quis!
+            Sequi delectus autem qui quae repellat quas ullam quis impedit aliquid temporibus earum libero eius iste
+            eaque, laborum ipsam tempora esse dolor cumque totam rerum? Amet non officiis quia corporis in, doloribus
+            provident maiores quod! Blanditiis quasi, vitae nostrum, consequatur molestiae facere expedita <br> cumque
+            ratione magnam rerum magni dicta esse quisquam voluptatibus. Minima nesciunt harum architecto consequuntur
+            sint sapiente ratione facilis vel deserunt nisi laboriosam voluptas rerum adipisci praesentium delectus
+            eligendi, temporibus tenetur, quis doloribus voluptatum est? Alias sapiente odio voluptatum animi ab at
+            accusamus, voluptate iste maxime sunt eos natus fugit, quas repellat, voluptatem reprehenderit perferendis
+            molestiae blanditiis <br> est. Magnam quas officiis labore culpa inventore? Veniam praesentium, blanditiis
+            labore iusto doloribus quam similique quo, id quod, numquam libero. Minus ullam quia sit a, asperiores,
+            adipisci delectus placeat, praesentium quisquam reiciendis eaque? Asperiores iusto pariatur ut architecto.
+            Totam repellendus <br> <br> excepturi quisquam dolor, in culpa eaque. Vel consequatur quibusdam illum
+            veritatis, distinctio, id eligendi accusantium iste ullam dolore, minus eaque recusandae? In est, molestiae
+            ad sit quis dolorum repellendus ipsam aut labore vero qui debitis? Itaque, dolorem!</p>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
